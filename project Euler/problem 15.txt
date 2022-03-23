@@ -1,0 +1,8 @@
+Problem 15 Lattice Paths
+
+You can only go right and down. So in a 2x2 grid to reach bottom you need to go down twice and right twice every single time. Can use binomial formula nCr (4C2) to get 6. 
+This is because it will tell you how many different possible combinations it is possible to go either right twice or down twice which would give every single path. As 4 total
+movements and 2 of them will be right or down.
+
+This means can use same logic but instead on a much larger scale of 20x20. This would be (40C20) 137,846,528,820.
+
